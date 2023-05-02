@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
 }
 
@@ -28,7 +28,7 @@ header {
 .logo {
   font-size: 10px;
   color: #f9faf8;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
   text-shadow: 0 0 5px #e5e7eb;
   margin-right: auto;
@@ -82,7 +82,7 @@ h1 {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
   text-shadow: 0 0 5px #e5e7eb;
 }
@@ -90,7 +90,7 @@ h1 {
 h3 {
   color: #f9faf8;
   font-weight: 900;
-  font-family: sans-serif, "Arial Narrow Bold";
+  font-family: sans-serif, 'Arial Narrow Bold';
 }
 
 .section-div p {
@@ -244,19 +244,23 @@ footer {
   align-items: center;
   width: 100%;
 }
+
 @media (max-width: 600px) {
   .section-1 {
     flex-direction: column;
   }
+
   .nav-bar {
     width: 100%;
     margin: 0 15px;
     flex-wrap: wrap;
     padding: 0;
   }
+
   .img-logo {
     width: 30px;
   }
+
   ul {
     justify-content: space-evenly;
     padding: 0;
@@ -264,24 +268,30 @@ footer {
     gap: 25px;
     width: 100%;
   }
+
   a {
     font-size: 12px;
   }
+
   h1 {
     font-size: 20px;
     margin-top: 10px;
   }
+
   .section-div {
     margin: 40px auto;
     width: 100%;
     padding: 18px;
   }
+
   .section-div p {
     font-size: 14px;
   }
+
   #buying-car {
     width: 220px;
   }
+
   .img-div {
     padding: 0 20px;
     justify-content: center;
@@ -289,37 +299,45 @@ footer {
     position: relative;
     left: 3%;
   }
+
   h2 {
     font-size: 15px;
     margin: 30px auto;
   }
+
   .section-2 {
     flex-direction: column;
     padding: 0;
     margin: 0;
   }
+
   .choose img {
     width: 180px;
     height: 100px;
     margin: 0 auto;
   }
+
   .choose p {
     font-size: 12px;
     text-align: center;
   }
+
   .choose {
     margin-top: -10px;
     margin-bottom: -20px;
   }
+
   .section-3 p {
     font-size: 14px;
     margin: 10px;
     margin-top: 25px;
   }
+
   .quote-div {
     padding: 0;
     margin: 0;
   }
+
   .signup-div {
     width: 80%;
     padding: 5px;
@@ -329,50 +347,64 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   .signup-text {
     width: 85%;
     margin: 0 auto;
   }
+
   .button-2 {
     margin: auto;
   }
+
   footer {
     padding: 5px;
     font-size: 14px;
   }
 }
+
 @media (min-width: 600px) and (max-width: 1024px) {
   .img-logo {
     margin-left: 10px;
     width: 5%;
   }
+
   .nav-bar {
     margin: auto;
   }
+
   ul {
     gap: 40px;
   }
+
   h1 {
     font-size: 24px;
   }
+
   .section-div {
     margin: 10px 15px;
   }
+
   #buying-car {
     width: 300px;
   }
+
   .img-div {
     margin: 0 10px;
   }
+
   h2 {
     font-size: 22px;
   }
+
   .section-2 {
     gap: 15px;
   }
+
   .choose img {
     width: 180px;
   }
+
   .signup-div {
     width: 80%;
     padding: 15px;
